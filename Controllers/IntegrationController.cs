@@ -23,7 +23,7 @@ namespace WebServices.Controllers
         {
             return  _context.GetEmpleados();
         }
-        [HttpPost("post")]
+        [HttpPost()]
         public async Task<IActionResult> Post(IntegrationInputDto model)
         {
             try

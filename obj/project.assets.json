@@ -1493,15 +1493,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "LeeryEscribir/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/LeeryEscribir.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LeeryEscribir.dll": {}
-        }
       }
     }
   },
@@ -5700,39 +5691,29 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "LeeryEscribir/1.0.0": {
-      "type": "project",
-      "path": "../LeeryEscribir/LeeryEscribir.csproj",
-      "msbuildProject": "../LeeryEscribir/LeeryEscribir.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EntityFramework >= 6.2.0",
-      "LeeryEscribir >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ec319981\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj",
+      "projectUniqueName": "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj",
       "projectName": "WebServices",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\WebServices\\obj\\",
+      "projectPath": "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj",
+      "packagesPath": "C:\\Users\\ec319981\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ec319981\\source\\repos\\webservices\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ec319981\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5745,11 +5726,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj": {
-              "projectPath": "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5793,7 +5770,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -5802,7 +5779,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"EntityFramework 6.2.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

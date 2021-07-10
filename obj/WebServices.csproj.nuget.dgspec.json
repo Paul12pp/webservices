@@ -1,33 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj": {}
+    "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj",
-        "projectName": "LeeryEscribir",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj"
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj": {
+    "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj",
+        "projectUniqueName": "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj",
         "projectName": "WebServices",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\WebServices\\WebServices.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\WebServices\\obj\\",
+        "projectPath": "C:\\Users\\ec319981\\source\\repos\\webservices\\WebServices.csproj",
+        "packagesPath": "C:\\Users\\ec319981\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ec319981\\source\\repos\\webservices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ec319981\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,11 +27,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\LeeryEscribir\\LeeryEscribir.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -88,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
