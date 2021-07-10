@@ -1,4 +1,4 @@
-namespace LeeryEscribir
+namespace WebServices
 {
     using System;
     using System.Collections.Generic;
